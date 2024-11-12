@@ -2951,18 +2951,18 @@ Robin watches as you leave <<him>> on the table. <<His>> soulless eyes stare at 
 <<effects>>
 
 <<earnFeat "Pounded Pound">>
-You place the document in front of Bailey. <<He>> regards it with little interest. "This is what you're wasting my time over?" <<he>> says. "I used to deal with this company. What of it?"
+당신은 베일리 앞에 서류를 놓는다. <<he_ nun>> 별로 흥미를 보이지 않는다. "이런걸로 내 시간을 낭비하고 있나?" <<He_ ga>> 말한다. "이 회사랑 예전에 거래했었지. 그래서 뭐?"
 <br><br>
 
 <<if $speech_attitude is "meek">>
-	"Y-you don't anymore?" you ask. You point at your name, and the red "<span class="red">B</span>" covering it.
+	"이-이제는 안 하시나요?" 당신이 묻는다. 당신은 당신의 이름 위에 덮인 빨간 "<span class="red">B</span>"를 가리킨다.
 <<elseif $speech_attitude is "bratty">>
-	"Used to?" you ask. "Then explain this." You point at your name, and the red "<span class="red">B</span>" covering it.
+	"예전에 했다고요?" 당신이 묻는다. "그럼 이건 어떻게 설명하실거죠." 당신은 당신의 이름 위에 덮인 빨간 "<span class="red">B</span>"를 가리킨다.
 <<else>>
-	"Used to?" you ask. You point at your name, and the red "<span class="red">B</span>" covering it.
+	"예전에 했다고요?" 당신이 묻는다. 당신은 당신의 이름 위에 덮인 빨간 "<span class="red">B</span>"를 가리킨다.
 <</if>>
 <br><br>
-The ghost of a frown crosses Bailey's face. <<He>> pulls <<his>> phone from <<his>> pocket. "You can leave," <<he>> says. "Go."
+베일리의 얼굴에 잠깐 미묘한 찌푸림이 스친다. <<He_ nun>> 주머니에서 휴대전화를 꺼낸다. "나가도 돼," <<He_ ga>> 말한다. "가."
 <br><br>
 
 <<link [[다음|Orphanage]]>><<endevent>><</link>>
@@ -2971,14 +2971,14 @@ The ghost of a frown crosses Bailey's face. <<He>> pulls <<his>> phone from <<hi
 :: Bailey Pond
 <<effects>>
 
-You ask Bailey if it were possible to install a spring in the orphanage garden, like Mason suggested. "It's possible," Bailey says. "An underground stream runs right beneath us. I looked into it once. Would have cost £2000."
+당신은 메이슨이 제안한 대로 고아원 정원에 샘을 설치할 수 있는지 베일리에게 묻는다. "가능하지," 베일리가 말한다. "지하 바로 아래에 물줄기가 흐르고 있어. 예전에 조사한 적 있지. 2000£ 정도 들었을 거야."
 <br><br>
 
-<<He>> stares at you. "I could have one installed. For <span class="gold">£6000.</span> That's my price. Now piss off."
+<<He_ nun>> 당신을 빤히 쳐다본다. "설치해 줄 수 있어. <span class="gold">£6000.</span>면. 그게 내 가격이야. 이제 꺼져."
 <br><br>
 
 <<if $money gte 600000>>
-	<<ind>><<link [[Pay for spring (£6000)|Bailey Pond Pay]]>><<set $money -= 600000>><</link>>
+	<<ind>><<link [[샘 설치비를 지불한다 (£6000)|Bailey Pond Pay]]>><<set $money -= 600000>><</link>>
 	<br>
 <</if>>
 <<getouticon>><<link [[떠난다|Orphanage]]>><<endevent>><</link>>
@@ -2987,11 +2987,11 @@ You ask Bailey if it were possible to install a spring in the orphanage garden, 
 :: Bailey Pond 2
 <<effects>>
 
-"Bringing this up again?" <<he>> sneers. "You better have the money."
+"또 이 얘기야?" <<He_ ga>> 비웃는다. "돈은 제대로 준비했겠지."
 <br><br>
 
 <<if $money gte 600000>>
-	<<ind>><<link [[Pay for spring (£6000)|Bailey Pond Pay]]>><<set $money -= 600000>><</link>>
+	<<ind>><<link [[샘 설치비를 지불한다 (£6000)|Bailey Pond Pay]]>><<set $money -= 600000>><</link>>
 	<br>
 <</if>>
 <<getouticon>><<link [[떠난다|Orphanage]]>><<endevent>><</link>>
@@ -3000,7 +3000,7 @@ You ask Bailey if it were possible to install a spring in the orphanage garden, 
 :: Bailey Pond Pay
 <<effects>>
 <<set $mason_pond to 3>><<set $mason_pond_timer to 7>>
-You put the cash on the desk. Bailey snatches it, and reclines in <<his>> chair as <<he>> counts. "Good," <<he>> says as <<he>> finishes. "I'll get them on it." <<He>> turns back to <<his>> computer.
+당신은 현금을 책상 위에 놓는다. 베일리는 재빨리 그것을 집어 들고, 의자에 기대며 돈을 센다. "좋아," 돈을 전부 세고 나서 <<He_ ga>> 말한다. "곧 작업 시작하지." <<He_ nun>> 다시 컴퓨터 화면으로 시선을 돌린다.
 <br><br>
 
 <<link [[떠난다|Orphanage]]>><<endevent>><</link>>
@@ -3016,34 +3016,34 @@ You put the cash on the desk. Bailey snatches it, and reclines in <<his>> chair 
 
 <br><br>
 <<if $seductionrating gte $seductionrequired>>
-	You step over to Bailey's desk and lean forward. <<He>> shoots you a glare. You stare back at <<him>> with pleading eyes. <<promiscuity3>>
-	"You know I can get your money in a day," you say softly. "That's all I need. You don't want to see me go away, do you?" Meekly, you look down and run a finger over the desk. <<His>> glare softens into a sneer.
+	당신은 베일리의 책상 앞으로 다가가 몸을 <<His_ yi>> 방향으로 기울인다. <<He_ ga>> 날카로운 시선으로 당신을 쏘아본다. 당신은 간절한 눈빛으로 <<He_ rul>> 응시한다. <<promiscuity3>>
+	"하루면 당신 돈 마련할 수 있어요," 당신이 부드럽게 말한다. "하루면 돼요. 제가 사라지는 걸 보고 싶진 않으시잖아요, 그쵸?" 당신은 고개를 숙이며 살며시 책상 위에 손가락을 올린다. <<His_ yi>> 날카로운 시선이 점차 비웃음으로 변한다.
 	<br><br>
-	Bailey's away from <<his>> desk and on top of you in an instant. <<He>> shoves you to the floor with a
+	순식간에 베일리가 자리에서 일어서 당신에게 다가온다. <<He_ nun>> 당신을 거칠게 바닥으로 쓰러트린다.
 	<<if $baileyseduced is 1>>
-		fierce look in <<his>> eyes.
+		<<He_ ga>> 당신을 강렬하게 바라본다.
 		<br>
-		"Alright, you little shit," <<he>> growls. "If it'll shut you up, I'll throw you a bone."
+		"그래, 빌어먹을 꼬마야," <<He_ ga>> 으르렁거리듯 말한다. "널 닥치게 할 수 있다면, 뼈라도 던져 주지."
 	<<else>>
-		smile. "You're right. I don't."
+		<<He_ ga>> 웃는다. "네 말이 맞아. 그 꼴은 보고 싶지 않거든."
 	<</if>>
 	<br><br>
 
 	<<link [[다음|Bailey Office Sex]]>><<set $molestationstart to 1>><</link>>
 	<br>
 <<else>>
-	You step over to Bailey's desk and lean forward, earning a glare from <<him>>. You put on your best pouty face. "I know something better than money," you whisper in a sly, sultry voice. <<promiscuity3>>
+	당신은 베일리의 책상 앞으로 다가가 몸을 <<His_ yi>> 방향으로 기울인다. <<He_ ga>> 짜증 섞인 시선으로 당신을 쏘아본다. 당신은 최대한 애교를 담은 얼굴로 말한다. "돈보다 더 좋은 걸 알고 있어요," 당신이 교활하고 유혹적인 목소리로 속삭인다. <<promiscuity3>>
 	<<if $baileyseduced is 1>>
-		Bailey looks up at you, unamused. "I told you what I want from you. Have it by tomorrow. Or else." <<He>> goes back to <<his>> work. "Now piss off, I'm busy."
+		베일리가 무표정하게 당신을 올려다본다. "내가 원하는 게 뭔지는 이미 말했을텐데. 내일까지 준비해." <<He_ nun>> 다시 자신의 일로 돌아간다. "이제 꺼져, 바쁘니까."
 	<<else>>
-		<span class="red">"Out," Bailey says, unamused. "Now."</span>
+		<span class="red">"나가," 베일리가 무표정하게 말한다. "지금 당장."</span>
 	<</if>>
 	<br>
-	"But I-"
+	"그렇지만 저는-"
 	<br>
-	"Now!" Bailey barks.
+	"당장 나가!" 베일리가 소리친다.
 	<br><br>
-	You step out of Bailey's office. It was worth a shot.
+	당신은 Bailey의 사무실을 나선다. 시도해 볼 만한 가치는 있었다.
 	<br><br>
 
 	<<link [[다음|Orphanage]]>><<endevent>><</link>>
@@ -3266,24 +3266,24 @@ You place the money on <<his>> desk and <<he>> takes it.
 /* I WILL kill whoever chose this naming convention for this string of passages. I should fix this later. */
 <<npc Robin 1>><<person1>>
 
-You enter Robin's room and sit down next to <<him>>. <<He>> looks at you, eyes welling up with tears. <<His>> expression is wary, but when you give <<him>> a hug, <<he>> slowly calms down.
+당신은 로빈의 방에 들어가 <<His_ yi>> 옆에 앉는다. <<He_ nun>> 두 눈에 눈물이 가득 고인 채 당신을 바라본다. <<His_ yi>> 표정에는 여전히 경계심이 어려 있지만, 당신이 <<He_ rul>> 안아주자 조금씩 진정되기 시작한다.
 <br><br>
 
 <<if $speech_attitude is "meek">>
-	You put your head on <<his>> lap. "I'm sorry," you say. "I-I was so scared, seeing you like that, I d-didn't know what to do."
+	당신은 <<His_ yi>> 무릎 위에 머리를 눕힌다. "미안해," 당신이 말한다. "네-네가 그런 모습을 보니까 너무 무서웠어. 뭘 어-어떻게 해야 할지 모르겠어서."
 	<br><br>
-	Robin sniffles and nods. <<He>> seems to have calmed down, but it's clear <<he>>'ll still need time to recover. <<He>> pets your head gently for a bit. It seems to soothe <<him>>, since <<his>> breathing eventually steadies.
+	로빈은 훌쩍이며 고개를 끄덕인다. <<He_ nun>> 이제 많이 진정된 듯 보이지만, 회복하려면 아직 시간이 필요해 보인다. <<He_ ga>> 당신의 머리를 조심스럽게 쓰다듬는다. 로빈에게도 위로가 되는 듯, <<His_ yi>> 호흡이 점차 안정된다.
 <<else>>
-	You take <<his>> head gently and pull it towards your chest, stroking <<his>> hair in silence until <<his>> breathing steadies.
+	당신은 <<his_ yi>> 머리를 부드럽게 당신의 가슴 위로 끌어와, <<His_ yi>> 호흡이 점차 안정될 때까지 <<His_ yi>> 머리카락을 쓰다듬는다.
 <</if>>
-<<He>> manages a small "thank you" before asking you to leave.
+<<He_ nun>> 작게 "고마워"라는 말을 남기고, 당신에게 나가달라고 부탁한다.
 <br><br>
 
 <<link [[떠난다|Orphanage]]>><<set $fromRobinRoom to true>><<set $robin_kicked_out to true>><<set $daily.robin.kickedOut to true>><<endevent>><</link>>
 
 :: Docks_Robin Ignore
 <<set $outside to 0>><<set $location to "home">><<effects>>
-You decide it's better to just walk away. You have yourself to worry about.
+당신은 그냥 떠나는 것이 더 낫겠다고 결심한다. 지금은 당신 자신을 챙겨야 할 때다. 
 <br><br>
 
 <<link [[다음|Bedroom]]>><<set $robin_kicked_out to true>><<set $daily.robin.kickedOut to true>><<endevent>><</link>>
@@ -4818,21 +4818,21 @@ When it's done, Robin looks a little relieved. "Are you feeling better now?" <<h
 	<br>
 
 <<else>>
-	You can't be in here when Robin comes back with Bailey. You gather yourself and make it back to your own room.
-	By the time you get there your frantic tears have calmed to light crying.
+	당신은 로빈이 베일리를 데리고 돌아올 때 이 곳에 있을 수 없다. 당신은 스스로를 추스리고 자신의 방으로 돌아간다.
+	방에 도착할 즈음, 당신의 격한 울음은 가벼운 흐느낌으로 바뀌어 있다.
 	<br><br>
-	Around five minutes later you hear the sound of someone knocking on your door. It's Robin.
-	<<He>> asks if you are in there, but does not wait for an answer and opens the door on <<his>> own.
+	약 5분 후, 누군가가 문을 두드리는 소리가 들린다. 로빈이다.
+	<<He_ nun>> 당신에게 거기 있냐고 물은 뒤, 대답을 기다리지 않고 스스로 방문을 연다.
 	<br><br>
-	"There you are!" <<he>> says, running in. "Bailey yelled at me when you weren't in my room. What happened?"
+	<<He_ ga>> 달려 들어오며 말한다. "네가 내 방에 없어서 베일리가 나한테 소리쳤어. 무슨 일이야?"
 	<br><br>
-	<<link [[Complain (0:05)|Robin Hug Break 3]]>><<set $phase to 0>><<pass 5>><<stress -12>><</link>><<lstress>>
+	<<link [[불평한다 (0:05)|Robin Hug Break 3]]>><<set $phase to 0>><<pass 5>><<stress -12>><</link>><<lstress>>
 	<br>
-	<<link [[Blame (0:05)|Robin Hug Break 3]]>><<set $phase to 1>><<pass 5>><<npcincr Robin love -1>><<npcincr Robin dom -1>><<npcincr Robin trauma 1>><<trauma -6>><<stress -12>><</link>><<ltrauma>><<llstress>><<grtrauma>><<llove>><<ldom>>
+	<<link [[비난한다 (0:05)|Robin Hug Break 3]]>><<set $phase to 1>><<pass 5>><<npcincr Robin love -1>><<npcincr Robin dom -1>><<npcincr Robin trauma 1>><<trauma -6>><<stress -12>><</link>><<ltrauma>><<llstress>><<grtrauma>><<llove>><<ldom>>
 	<br>
-	<<link [[Persecute (0:05)|Robin Hug Break 3]]>><<set $phase to 2>><<pass 5>><<npcincr Robin love -1>><<npcincr Robin dom -1>><<npcincr Robin trauma 3>><<stress -12>><<trauma -12>><</link>><<lltrauma>><<llstress>><<ggrtrauma>><<llove>><<ldom>>
+	<<link [[구박한다 (0:05)|Robin Hug Break 3]]>><<set $phase to 2>><<pass 5>><<npcincr Robin love -1>><<npcincr Robin dom -1>><<npcincr Robin trauma 3>><<stress -12>><<trauma -12>><</link>><<lltrauma>><<llstress>><<ggrtrauma>><<llove>><<ldom>>
 	<br>
-	<<link [[Dismiss|Robin Hug Break 3]]>><<set $phase to 3>><</link>>
+	<<link [[무시한다|Robin Hug Break 3]]>><<set $phase to 3>><</link>>
 	<br>
 
 <</if>>
