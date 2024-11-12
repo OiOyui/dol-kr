@@ -4167,26 +4167,26 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 	로빈의 팔이 뒤에서 당신을 끌어안는다. "네가 날 구했어," <<He_ ga>> 말한다. "나의 히어로." 당신의 얼굴도 함께 붉어진다.
 
 	<<if C.npc.Robin.trauma gte 20>>
-		<<He>> sniffles. "I-I am so sorry... This happened to you because you tried to save me..."
+		<<He_ ga>> 훌쩍인다. "저-정말 미안해... 나를 구하려다가 이런 일이 생긴거잖아."
 		<br><br>
-		"It's okay. At least we're not hurt."
+		"괜찮아. 적어도 다친 건 아니잖아."
 		<<if $trauma gte ($traumamax * 0.7)>>
-			You make an effort to conceal your trembling.
+			당신은 떨림을 숨기려 애쓴다.
 		<</if>>
 		<br><br>
-		You escort <<him>> back to the table and hold <<him>> until <<he>> calms down.
+		당신은 <<He_ rul>> 식탁으로 데려가며 <<He_ ga>> 진정될 때까지 곁에 있어준다.
 	<<else>>
-		"I'm sorry..." <<His>> voice cracks. "I shouldn't have let this happen to you."
+		"미안해..." <<His_ yi>> 목소리가 갈라진다. "너한테 이런 일이 생기도록 내버려 두면 안됐어."
 		<br><br>
-		"It's okay. At least we're not hurt," you say.
+		"괜찮아. 적어도 우리 둘 다 다치진 않았잖아," 당신이 말한다.
 		<<if $trauma gte ($traumamax * 0.7)>>
-			You make an effort to conceal your trembling, but Robin seems to notice.
+			당신은 떨림을 숨기려 애쓰지만, 로빈은 그것을 눈치챈다.
 		<</if>>
 		<br><br>
-		<<He>> holds your hand, leading you back to the table.
+		<<He_ ga>> 당신의 손을 잡고, 식탁으로 이끈다.
 	<</if>>
 	<br><br>
-	You sit and chat with Robin while you eat. "I'm going to wait in the classroom," <<he>> says when you finish. "I don't like being late." <<He>> gives you a hug. "나랑 같이 갈래?"
+	당신은 식탁에 앉아 로빈과 식사를 하며 대화를 나눈다. "난 교실에서 기다릴게. 지각하는 건 싫거든." 식사가 끝나자, <<He_ ga>> 말한다. 그러고는 당신을 꼭 안아준다. "나랑 같이 갈래?"
 	<<ltrauma>><<lstress>><<trauma -2>><<stress -4>><<pass 20>>
 	<br><br>
 
@@ -4272,15 +4272,15 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 	<<endevent>><<npc Robin>><<person1>>
 
 	<<if C.npc.Robin.trauma gte 20>>
-		As their voices fade down the hallway, Robin rushes over to check on your injuries. Tears well up in <<his>> eyes, and <<he>> can't help but shake a bit. "I-I'm so sorry... I got too scared, and..." <<His>> voice falters. "Do you need to see the nurse? I can go with you if you want..."
+		그들의 목소리가 복도 멀어지자, 로빈이 다급하게 달려와 당신의 상처를 살핀다. <<His_ yi>> 눈에 눈물이 고이고, 몸을 떨며 말을 제대로 잇지 못한다. "저-정말 미안해... 너무 무서워서, 그래서..." <<His_ yi>> 목소리가 흔들린다. "보건실에 가야 하는 거 아냐? 원한다면 내가 같이 가줄게..."
 		<br><br>
-		<<link [[Go with Robin|Lunch Fight Infirmary]]>><</link>><br>
-		<<link [[Stay|Lunch Fight Stay]]>><<set $phase to 0>><</link>>
+		<<link [[로빈과 함께 간다|Lunch Fight Infirmary]]>><</link>><br>
+		<<link [[가지 않는다|Lunch Fight Stay]]>><<set $phase to 0>><</link>>
 	<<else>>
-		Robin rushes over to check on your injuries."You got hurt because of me!" <<he>> says with regret. "Let me take you to the infirmary, please."
+		로빈은 다급하게 달려와 당신의 상처를 확인한다. "너 나 때문에 다쳤잖아!" <<He_ ga>> 후회 섞인 목소리로 말한다. "내가 널 보건실로 데려갈 수 있게 해줘, 제발."
 		<br><br>
-		<<link [[Go with Robin|Lunch Fight Infirmary]]>><</link>><br>
-		<<link [[Stay|Lunch Fight Stay]]>><<set $phase to C.npc.Robin.dom gte 50 ? 2 : 1>><</link>>
+		<<link [[로빈과 함께 간다|Lunch Fight Infirmary]]>><</link>><br>
+		<<link [[가지 않는다|Lunch Fight Stay]]>><<set $phase to C.npc.Robin.dom gte 50 ? 2 : 1>><</link>>
 	<</if>>
 	<br><br>
 	<<pass 20>>
@@ -4292,11 +4292,11 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 <<npc Robin>><<person1>>
 <<switch $phase>>
 	<<case 3>>
-		"I know, you're always so strong." <<He>> looks like <<he>> wants to say something else but ends up just sighing. "Just... please don't pretend you can't get hurt, okay?"
+		"그래 알아, 넌 언제나 그렇게 강하지." <<He_ nun>> 무언가 더 말하려는 듯하지만 결국 한숨만 내쉰다. "그냥... 다치지 않은 척만 하지 말아줘, 알겠지?"
 		<br><br>
-		You go back to the table and chat with Robin as you eat. <<He>> keeps mentioning that you should care more about yourself. Sometimes you feel Robin is a bit of a nag. <<ltrauma>><<lstress>><<trauma -2>><<stress -4>><<pass 20>>
+		당신은 다시 식탁으로 돌아가 로빈과 이야기를 나누며 식사를 한다. <<He_ nun>> 계속해서 당신이 좀 더 자기 자신을 챙겨야 한다고 말한다. 당신은 가끔 로빈의 잔소리가 좀 심하다는 생각을 한다. <<ltrauma>><<lstress>><<trauma -2>><<stress -4>><<pass 20>>
 		<br><br>
-		"I'm going to wait in the classroom," <<he>> says when you finish your food. "I don't like being late. Do you want to come with me?"
+		"난 교실에 먼저 가서 기다릴게," 당신이 식사를 마치자 <<He_ ga>> 말한다. "지각하는 건 싫어서. 같이 갈래?"
 		<<endevent>>
 		<br><br>
 		<<historyicon>><<link [[로빈과 같이 역사수업을 들으러 간다 (0:01)|History Classroom]]>><<set $justEntered to true>><<set $withRobin to "yes">><<pass 1>><</link>><br>
@@ -4305,15 +4305,15 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 		<br>
 
 	<<case 2>>
-		"You really need the nurse." <<He>> frowns, still holding your arms.
+		"너 정말 보건실에 가야 해." <<He_ ga>> 당신의 팔을 붙잡은 채 얼굴을 찡그린다.
 		<br><br>
-		<<link [[Go with Robin|Lunch Fight Infirmary]]>><</link>><br>
-		<<link [[Insist on staying|Lunch Fight Stay]]>><<set $phase to 3>><<npcincr Robin dom -1>><</link>><<ldom>>
+		<<link [[로빈을 따라간다|Lunch Fight Infirmary]]>><</link>><br>
+		<<link [[가지 않겠다고 고집부린다|Lunch Fight Stay]]>><<set $phase to 3>><<npcincr Robin dom -1>><</link>><<ldom>>
 
 	<<case 1>>
-		"I know, you're always so strong." <<He>> looks like <<he>> wants to say something else but ends up just sighing. "Just... be careful." You go back to the table and chat with Robin as you eat. <<He>> changes the topic, but <<he>> still seems worried about your condition. <<ltrauma>><<lstress>><<trauma -2>><<stress -4>><<pass 20>>
+		"그래 알아, 넌 언제나 그렇게 강하지." <<He_ nun>> 무언가 더 말하려는 듯하지만 결국 한숨만 내쉰다. "그냥... 조심해 줘." 당신은 다시 식탁으로 돌아가 로빈과 이야기를 나누며 식사를 한다. <<He_ nun>> 대화의 주제를 바꿔보지만, 여전히 당신의 상태를 염려하고 있다. <<ltrauma>><<lstress>><<trauma -2>><<stress -4>><<pass 20>>
 		<br><br>
-		"I'm going to wait in the classroom," <<he>> says when you finish your food. "I don't like being late. Do you want to come with me?"
+		"난 교실에 먼저 가서 기다릴게," 당신이 식사를 마치자 <<He_ ga>> 말한다. "지각하는 건 싫어서. 같이 갈래?"
 		<<endevent>>
 		<br><br>
 		<<historyicon>><<link [[로빈과 같이 역사수업을 들으러 간다 (0:01)|History Classroom]]>><<set $justEntered to true>><<set $withRobin to "yes">><<pass 1>><</link>><br>
@@ -4321,9 +4321,9 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 		<<foodicon "eat">><<link [[식당에 남아있는다|Canteen Stay]]>><<set $robinexit to "leave">><<set $phase2 to "canteen">><</link>>
 		<br>
 	<<default>>
-		"Okay... you'll take care of yourself, right?" You go back to the table and chat with Robin while eating. <<He>> tries to follow your conversation but keeps getting distracted by the bruise on the back of your hand. <<ltrauma>><<lstress>><<trauma -2>><<stress -4>><<pass 20>>
+		"알았어... 그래도 몸 챙길거지, 응?" 당신은 다시 식탁으로 돌아가 로빈과 이야기를 나누며 식사를 한다. <<He_ nun>> 대화를 따라가려고 노력하지만, 자꾸 당신의 손등에 있는 멍을 신경 쓰느라 집중하지 못한다. <<ltrauma>><<lstress>><<trauma -2>><<stress -4>><<pass 20>>
 		<br><br>
-		"I'm going to wait in the classroom," <<he>> says when you finish your food. "I don't like being late. Do you want to come with me?"
+		"난 교실에 먼저 가서 기다릴게," 당신이 식사를 마치자 <<He_ ga>> 말한다. "지각하는 건 싫어서. 같이 갈래?"
 		<<endevent>>
 		<br><br>
 		<<historyicon>><<link [[로빈과 같이 역사수업을 들으러 간다 (0:01)|History Classroom]]>><<set $justEntered to true>><<set $withRobin to "yes">><<pass 1>><</link>><br>
@@ -4336,95 +4336,95 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 <<set $outside to 0>><<set $location to "school">><<schooleffects>><<effects>>
 <<npc Robin>><<person1>>
 
-Robin accompanies you to the infirmary. You only have a few scratches, but <<he>> seems overly concerned for you. <<He>> keeps glancing at your wounds as the nurse applies some ointment. <<pain -10>><<lpain>>
+로빈은 당신과 함께 보건실로 간다. 당신에게는 가벼운 긁힌 상처 몇 개 뿐이었지만, <<He_ nun>> 지나치게 걱정하는 기색을 보인다. 보건 선생님이 연고를 바르는 동안에도 <<He_ nun>> 계속해서 당신의 상처를 신경 쓰며 흘끗흘끗 바라본다. <<pain -10>><<lpain>>
 <br><br>
 
-When it's done, Robin looks a little relieved. "Are you feeling better now?" <<he>> asks <<print C.npc.Robin.trauma gte 20 ? "anxiously" : "worriedly">>.
+치료가 끝나자, 로빈은 조금 안심한 듯 보인다. "좀 나아졌어?" <<he>> asks <<print C.npc.Robin.trauma gte 20 ? "anxiously" : "worriedly">>.
 <br><br>
 
-<<link [[Thank Robin|Lunch Fight Infirmary 2]]>><<set $phase to 0>><<npcincr Robin love 1>><<trauma -3>><<pass 20>><</link>><<glove>><<ltrauma>><br>
+<<link [[로빈에게 감사한다|Lunch Fight Infirmary 2]]>><<set $phase to 0>><<npcincr Robin love 1>><<trauma -3>><<pass 20>><</link>><<glove>><<ltrauma>><br>
 <<link [[로빈을 껴안는다|Lunch Fight Infirmary 2]]>><<set $phase to 1>><<npcincr Robin love 1>><<stress -3>><<pass 20>><</link>><<glove>><<lstress>><br>
 <<if $trauma gte $traumamax / 5>>
 	<<if !(C.npc.Robin.dom gte 50 and C.npc.Robin.trauma lt 10) or ($robinnote is 1 and $robinromance isnot 1)>>
-		<<link [[Persecute Robin|Lunch Fight Infirmary 2]]>><<set $phase to 2>><<trauma -6>><<stress -6>><<pass 20>><</link>><<lltrauma>><<llstress>><<llove>><<ldom>><<grtrauma>>
+		<<link [[로빈을 구박한다|Lunch Fight Infirmary 2]]>><<set $phase to 2>><<trauma -6>><<stress -6>><<pass 20>><</link>><<lltrauma>><<llstress>><<llove>><<ldom>><<grtrauma>>
 	<<else>>
-		<<link [[Vent to Robin|Lunch Fight Infirmary 2]]>><<set $phase to 2>><<trauma -6>><<stress -6>><<pass 20>><</link>><<lltrauma>><<llstress>>
+		<<link [[로빈을 탓한다|Lunch Fight Infirmary 2]]>><<set $phase to 2>><<trauma -6>><<stress -6>><<pass 20>><</link>><<lltrauma>><<llstress>>
 	<</if>>
 <</if>>
 :: Lunch Fight Infirmary 2
 <<pass 10>>
 <<if $phase is 2>>
-	You know it's not <<his>> fault, but you can't help thinking that <<print $robinpaid is 1 ? "you've endured so much for <<him>>" : "bad things keep happening, one after another">>. Yet, you still want to be <<his>> hero, like a fool? Powerlessness and frustration turn into sharp words as you cling to Robin and yell at <<him>>.
+	당신은 <<His_ yi>> 잘못이 아니라는 걸 알지만, <<print $robinpaid is 1 ? "그러면서도 <<He_ rul>>> 위해 너무 많은 걸 감내해왔다는 생각을 지울 수 없다." : "계속해서 나쁜 일들이 이어지고 있었다, 하나가 끝나면 또 다른 하나가 이어졌다.">> 그런데도 여전히, 당신은 <<his_ yi>> 영웅이 되고자 한다. 바보처럼. 무력감과 좌절감이 날카로운 말로 변해, 당신은 로빈을 붙잡고 소리친다.
 	<br><br>
 
 	<<if $robinnote is 1 and $robinromance isnot 1>>
-		<<He>> waits for you to finish without saying a word. The nurse has slipped away at some point. An unbearable silence fills the room until <<he>> finally breaks it.
+		<<He_ nun>> 아무 말 없이 당신이 말을 전부 마칠 때까지 기다린다. 어느 순간 보건 선생님은 조용히 자리를 떠났다. 견디기 힘든 침묵이 방 안을 채우고, 결국 로빈이 그 침묵을 깬다.
 		<br><br>
-		"So... why are you always trying to save me, then?" Robin keeps <<his>> head down. "You could just... leave me alone, you know you could..." <<set $robin.hurtReason to "the thing that happened in the infirmary">><<set $robin.timer.hurt to 1>><<npcincr Robin love -2>><<npcincr Robin dom -2>><<npcincr Robin trauma 2>><<llove>><<ldom>><<grtrauma>>
+		"그럼... 왜 항상 날 구하려고 하는건데?" <<He_ nun>> 고개를 숙인 채 말한다. "그냥 날... 내버려 둘 수도 있잖아, 너도 그걸 알잖아..." <<set $robin.hurtReason to "the thing that happened in the infirmary">><<set $robin.timer.hurt to 1>><<npcincr Robin love -2>><<npcincr Robin dom -2>><<npcincr Robin trauma 2>><<llove>><<ldom>><<grtrauma>>
 		<br><br>
-		Before you can respond, <<he>> turns back to the door. "I-I'm going to class." <<He>> leaves in a hurry.
+		당신이 대답하기도 전에, 로빈은 문 쪽으로 돌아선다. "난... 난 수업에 갈게." <<He_ nun>> 서둘러 보건실을 나간다.
 		<br><br>
 		<<endevent>>
 		<<link [[다음|Hallways]]>><</link>>
 	<<elseif $robinromance is 1>>
 		<<if C.npc.Robin.dom gte 50 and C.npc.Robin.trauma lt 10>>
-			Robin lets you cry on <<his>> shoulder, listening and waiting for you to calm down. "I'm sorry for putting you through all of this." <<He>> clenches <<his>> fist and looks at you with determined eyes. "I promise, I won't let it happen again." <<set $robininfirmarypromise to 1>><<npcincr Robin dom 5>><<ggdom>>
+			로빈은 당신이 <<His_ yi>> 어깨에 기대어 울 수 있도록 가만히 있어주며, 당신이 진정될 때까지 기다린다. "이 모든 걸 겪게 해서 미안해." <<He_ nun>> 주먹을 꼭 쥐고, 결연한 눈으로 당신을 바라본다. "다시는 이런 일이 없도록 할게, 약속해." <<set $robininfirmarypromise to 1>><<npcincr Robin dom 5>><<ggdom>>
 			<br><br>
-			<<He>> pulls you into <<his>> arms again and doesn't let go. Eventually, you notice the nurse stifling a laugh. You suddenly feel ashamed but realise that you are loved. <<trauma -3>><<ltrauma>>
+			<<He_ ga>> 다시 당신을 끌어안고, 놓아주지 않는다. 그러다 문득, 보건 선생님이 웃음을 참는 모습에 순간 부끄러움이 밀려온다. 그렇지만 동시에, 당신은 자신이 사랑받고 있다는 것을 깨닫는다. <<trauma -3>><<ltrauma>>
 			<br><br>
-			You apologise for blowing up at <<him>> and tell Robin that it's time for class. <<He>> nods and takes your hand, leading you to the hallway.
+			당신은 로빈에게 소리쳤던 것을 사과하고, 이제 수업에 가야 할 시간이라고 말한다. <<He_ nun>> 고개를 끄덕이며 당신의 손을 잡고 복도로 데리고 나간다.
 			<br><br>
 			<<link [[다음|History Classroom]]>><<set $justEntered to true>><<set $withRobin to "yes">><<pass 1>><</link>><br>
 		<<else>>
-			Before things get too serious, the nurse interrupts. "Hey, I don't know what happened, but don't fight, okay?"
-			You calm down. Robin clenches <<his>> fist, keeping <<his>> head down. You can't see <<his>> face, but tears are falling on the back of <<his>> hand.
+			상황이 더 심각해지기 전에, 보건 선생님이 끼어든다. "이봐, 무슨 일이 있었는지는 모르겠지만, 싸우지마, 알겠어?"
+			당신은 진정한다. 로빈이 고개를 숙인 채 주먹을 꽉 쥐고 있다. <<His_ yi>> 얼굴은 보이지 않지만, <<his_ yi>> 손등으로 눈물이 떨어지고 있다.
 			<br><br>
-			"I-I didn't know that was how you saw me..." <<His>> voice cracks. "Sorry, I don't mean to be a burden. I know... it's better to learn how to take care of myself." <<set $robin.hurtReason to "the thing that happened in the infirmary">><<set $robin.timer.hurt to 1>><<npcincr Robin love -2>><<npcincr Robin dom -2>><<npcincr Robin trauma 2>><<llove>><<ldom>><<grtrauma>>
+			"네-네가 날 그렇게 생각하는 줄은 몰랐어..." <<His_ yi>> 목소리가 떨린다. "미안해, 부담 주려던 건 아니었어. 나도 알아... 나 스스로를 지키는 법을 배우는 게 낫겠지." <<set $robin.hurtReason to "the thing that happened in the infirmary">><<set $robin.timer.hurt to 1>><<npcincr Robin love -2>><<npcincr Robin dom -2>><<npcincr Robin trauma 2>><<llove>><<ldom>><<grtrauma>>
 			<br><br>
-			Before you can respond, <<he>> turns back to the door. "I-I'm going to class." <<He>> leaves in a hurry. <<endevent>>
+			당신이 대답하기도 전에, 로빈은 문 쪽으로 돌아선다. "난... 난 수업에 갈게." <<He_ nun>> 서둘러 보건실을 나간다. <<endevent>>
 			<br><br>
 			<<link [[다음|Hallways]]>><</link>>
 		<</if>>
 	<<else>>
 		<<if C.npc.Robin.dom gte 50 and C.npc.Robin.trauma lt 10>>
-			The next second, you're surprised to find yourself pulled into a warm embrace. "There, there," Robin says, patting your back. "You always used to do this for me, remember? It made me feel better every time." <<trauma -3>><<stress -3>><<ltrauma>><<lstress>>
+			순간, 당신은 따뜻한 품에 안겨 깜짝 놀란다. "자, 자, 괜찮아." 로빈이 당신의 등을 토닥이며 말한다. "네가 항상 나한테 이렇게 해줬잖아, 기억나? 그때마다 기분이 나아졌어." <<trauma -3>><<stress -3>><<ltrauma>><<lstress>>
 			<br><br>
-			It really works. Robin's hug consoles you, just like it always has. <<He>> stays put for a long time, until you notice the nurse stifling a laugh. You suddenly feel a bit embarrassed, so you tell Robin it's time for class. <<He>> nods and takes your hand, leading you to the hallway. <<endevent>>
+			그 말대로였다. 로빈의 포옹이 언제나처럼 당신을 위로해 준다. <<He_ nun>> 오랫동안 그 자리에 가만히 있어준다. 그러다 문득 보건 선생님이 웃음을 참는 모습을 보고, 당신은 약간 부끄러움이 밀려온다. 그래서 당신은 로빈에게 수업에 가야 할 시간이라고 말한다. <<He_ nun>> 고개를 끄덕이며 당신의 손을 잡고 복도로 데리고 나간다. <<endevent>>
 			<br><br>
 			<<link [[다음|History Classroom]]>><<set $justEntered to true>><<set $withRobin to "yes">><<pass 1>><</link>><br>
 		<<else>>
-			Before things get too serious, the nurse interrupts. "Hey, I don't know what happened, but you two need to stop fighting."
+			상황이 더 심각해지기 전에, 보건 선생님이 끼어든다. "이봐, 무슨 일이 있었는지는 모르겠지만, 너희 둘이서 싸우는 건 멈춰."
 			<br><br>
-			You calm down. Robin seems unsure of what to say. An uncomfortable silence fills the room until <<he>> finally breaks it.<<npcincr Robin love -2>><<npcincr Robin dom -2>><<npcincr Robin trauma 2>><<llove>><<ldom>><<grtrauma>>
-			"You can take a rest. I'll see you in class." <<He>> turns back to the door. "Just... try not to push yourself too hard." <<He>> leaves in a hurry. <<endevent>>
+			당신은 진정한다. 로빈은 무슨 말을 해야할지 알 수 없어 보인다. 불편한 침묵이 보건실을 가득 채우며, <<He_ ga>> 결국 그 침묵을 깬다.<<npcincr Robin love -2>><<npcincr Robin dom -2>><<npcincr Robin trauma 2>><<llove>><<ldom>><<grtrauma>>
+			"좀 쉬어. 수업에서 보자." <<He_ ga>> 문을 향해 돌아선다. "그냥... 너무 무리하진 마." <<He_ ga>> 빠르게 보건실을 떠난다. <<endevent>>
 			<br><br>
 			<<link [[다음|Hallways]]>><</link>>
 		<</if>>
 	<</if>>
 <<elseif $phase is 1>>
 	<<if $speech_attitude is "meek">>
-		You lean on Robin's shoulder, allowing <<his>> arms to wrap around you. "I'm fine. There's nothing better than seeing you safe."
+		당신은 로빈의 어깨에 기대어, <<his_ yi>> 팔이 당신을 감싸게 한다. "난 괜찮아. 네가 안전한 걸 보는 것보다 좋은 건 없어."
 	<<elseif $speech_attitude is "bratty">>
-		You pull <<him>> into your arms. "Couldn't be better. You don't think I'm that easily knocked down, do you?"
+		당신은 <<He_ rul>> 끌어안으며 말한다. "이보다 좋을 수 없지. 내가 그렇게 쉽게 쓰러질 사람같아 보여?"
 	<<else>>
-		You give <<him>> a gentle embrace. "The most important thing is that you are safe."
+		당신은 로빈을 부드럽게 안아준다. "가장 중요한 건 네가 안전하다는 거야."
 	<</if>>
 	<br><br>
-	Robin's cheeks turn red. Just as <<hes>> about to reply, a growling sound coming from your stomach stops <<him>>. "Sorry..." <<He>> checks the clock. "Looks like there's no time to finish lunch."
+	로빈의 볼이 붉어진다. <<He_ ga>> 대답하려던 순간, 당신의 배에서 꼬르륵 소리가 나면서 <<He_ rul>> 멈추게 한다. "미안..." <<He_ ga>> 시계를 화깅ㄴ한다. "점심을 다 먹을 시간은 부족할 것 같은데."
 	<br><br>
-	Another growl comes from <<his>> stomach. Then you both burst into laughter. "No worries. We can grab something on our way home. It's on me!" you say.
+	바로 그때, 로빈의 배에서도 꼬르륵 소리가 난다. 그리고 둘 다 웃음을 터뜨린다. "걱정하지 마. 집에 가는 길에 뭐 좀 사먹으면 되지. 내가 살게!" 당신이 말한다.
 	<br><br>
-	Robin's eyes light up. "Can we get <<print Time.season is "winter" ? "pancakes" : "chocolate ice cream">>?"
-	<<print $robinromance is 1 ? "You hold hands as you" : "You">> walk to the classroom. <<He>> excitedly talks about some food stands you might pass on your way home.
+	로빈의 눈이 반짝인다. "그럼 우리 <<print Time.season is "winter" ? "팬케이크" : "초콜릿 아이스 크림">> 먹을까?"
+	<<print $robinromance is 1 ? "당신은 <<his_ yi>> 손을 잡고" : "당신은">> 교실로 향한다. <<He_ nun>> 집에 가는 길에 들를 만한 음식 가판대에 대해 신나서 이야기한다.
 	<br><br>
 	<<link [[다음|History Classroom]]>><<set $justEntered to true>><<set $withRobin to "yes">><<pass 1>><</link>><br>
 <<else>>
-	You thank Robin and tell <<him>> you're good. Just as <<hes>> about to reply, a growling sound coming from your stomach stops <<him>>.	"Sorry... " <<He>> checks the clock. "Looks like there's no time to finish lunch."
+	당신은 로빈에게 감사하며 괜찮다고 말한다. <<He_ ga>> 대답하려던 순간, 당신의 배에서 꼬르륵 소리가 나면서 <<He_ rul>> 멈추게 한다. "미안..." <<He_ ga>> 시계를 화깅ㄴ한다. "점심을 다 먹을 시간은 부족할 것 같은데.
 	<br><br>
-	Another growl comes from <<his>> stomach. Then you both burst into laughter. "No worries. We can grab something on our way home. It's on me!" you say.
+	바로 그때, 로빈의 배에서도 꼬르륵 소리가 난다. 그리고 둘 다 웃음을 터뜨린다. "걱정하지 마. 집에 가는 길에 뭐 좀 사먹으면 되지. 내가 살게!" 당신이 말한다.
 	<br><br>
-	Robin's eyes light up. "Can we get <<print Time.season is "winter" ? "pancakes" : "chocolate ice cream">>?"
-	<<print $robinromance is 1 ? "You hold hands as you" : "You">> walk to the classroom. <<He>> excitedly talks about some food stands you might pass on your way home.
+	로빈의 눈이 반짝인다. "그럼 우리 <<print Time.season is "winter" ? "팬케이크" : "초콜릿 아이스 크림">> 먹을까?"
+	<<print $robinromance is 1 ? "당신은 <<his_ yi>> 손을 잡고" : "당신은">> 교실로 향한다. <<He_ nun>> 집에 가는 길에 들를 만한 음식 가판대에 대해 신나서 이야기한다.
 	<br><br>
 	<<link [[다음|History Classroom]]>><<set $justEntered to true>><<set $withRobin to "yes">><<pass 1>><</link>><br>
 <</if>>
