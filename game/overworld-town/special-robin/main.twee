@@ -4841,34 +4841,34 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 <<set $outside to 0>><<set $location to "home">><<effects>>
 
 <<if $phase is 0>>
-	You give Robin some complaints about the things that have been happening to you,
-	but you don't trust <<him>> enough to give the full details about what's really been going on so you are vague about the more significant stuff.
-	<<He>> doesn't really seem to know how to respond, and winds up ducking out of your room before you even manage to get all the way through your list of issues.
+	당신은 로빈에게 요즘 일어난 일들에 대해 불평을 늘어놓지만,
+	결국 당신은 로빈에게 완전히 신뢰가 가지 않아 중요한 부분은 애매하게 말하고 넘긴다.
+	<<He_ nun>> 어떻게 대답해야 할지 몰라 보이고, 결국 당신이 전부 이야기하기도 전에 슬그머니 방을 나간다.
 	<br><br>
 
 	<<endevent>>
 	<<link [[다음|Bedroom]]>><</link>>
 	<br>
 <<elseif $phase is 1>><<set $robinbaileyhelp to 1>>
-	You bite back at <<him>> and tell <<him>> it's <<his>> fault for going to Bailey in the first place, and dismiss <<his>> concerns.
-	You eventually send <<him>> out of your room, still embarrassed about such an episode.
+	당신은 로빈에게 날카롭게 말하며 애초에 베일리에게 간 게 <<his_ yi>> 잘못이라며, <<his_ yi>> 걱정을 무시한다.
+	결국, 당신은 여전히 이 상황이 수치스러워 <<He_ rul>> 방에서 내보낸다.
 	<br><br>
 
 	<<endevent>>
 	<<link [[다음|Bedroom]]>><</link>>
 	<br>
 <<elseif $phase is 2>><<set $robinbaileyhelp to 1>>
-	You lay into Robin for leaving in the middle of your breakdown and getting Bailey.
-	You yell at <<him>> and chew <<him>> out,
-	redirecting all of the unrealised frustrations from your previous breakdown into anger at Robin for doing something so stupid.
-	<<He>> leaves your room in tears.
+	당신은 자신이 감정적으로 무너졌을 때 로빈이 중간에 나가서 베일리를 데려온 것에 대해 <<He_ rul>> 몰아붙인다.
+	You yell at <<him>> and chew <<him>> out, 당신은 로빈을 향해 소리치고 <<He_ rul>> 심하게 질책하며,
+	이전의 실패로 인한 좌절감과 억눌려진 감정을 모두 바보같은 짓을 한 로빈에 대한 분노로 돌린다.
+	<<He_ nun>> 눈물과 함께 당신의 방을 나간다.
 	<br><br>
 
 	<<endevent>>
 	<<link [[다음|Bedroom]]>><</link>>
 	<br>
 <<else>>
-	You shrug off Robin and refuse to speak to <<him>>. Eventually, <<he>> takes the hint and leaves.
+	당신은 로빈을 외면하고 <<him_ gwa>> 대화하는 것을 거부한다. 결국 <<He_ nun>> 당신의 신호를 알아채고 떠난다.
 	<br><br>
 
 	<<endevent>>
@@ -4886,19 +4886,19 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 
 <<if _robinlove gte 80 and $robincrycount gte 5>>
 	<<set $robincrycount += 1>>
-	Robin seems to already realise something is wrong and wraps <<his>> arms around you,
-	<<he>> doesn't ask what's going on, but just quietly soothes you with gentle words as <<he>> rubs <<his>> hands on your back.
-	As <<he>> tries to soothe you, you regain the ability to talk past your tears and begin unloading all of the troubles that have happened to you recently.
+	로빈은 뭔가 잘못되었다는 것을 즉시 알아차리고 <<his_ yi>> 팔로 당신을 감싸 안는다.
+	<<He_ nun>> 무슨 일이냐고 묻지 않으며, <<his_ yi>> 손으로 당신의 등을 문질러주면서 부드러운 말로 조용히 당신을 달랜다.
+	<<He_ ga>> 당신을 달래주려고 노력하는 동안 당신은 눈물을 흘리며 최근 당신에게 일어난 모든 문제를 이야기할 수 있는 여유를 되찾게 된다.
 <<elseif _robinlove gte 60 and $robincrycount gte 1>>
 	<<set $robincrycount += 1>>
-	Robin seems stunned for a moment, but soon adapts to the situation and wraps <<his>> arms around you.
+	로빈은 잠시 당황한 듯 하다가도, 곧 상황을 받아들이고 <<His_ yi>> 팔로 당신을 감싸 안는다.
 <<elseif _robinlove gte 40>>
-	Robin seems stunned for a moment when <<he>> notices you crying.
-	After a little while <<he>> gently but uneasily hugs you back and lets you stay like that until you finish crying.
+	로빈은 당신이 우는 것을 알아차리자 순간 멈칫한다.
+	잠시 후 <<He_ nun>> 부드럽게, 그러나 불안하게 당신을 다시 끌어안아 울음이 끝날 때까지 그대로 있어준다.
 <<elseif _robinlove gte 20>>
-	"Umm..." Robin responds as <<he>> sees you cry on <<his>> shoulder. <<He>> seems uncertain about how to respond, but <<he>> strokes your hair.
+	"음..." 로빈이 <<his_ yi>> 어깨에 기대어 우는 당신을 보고 반응한다. <<He_ nun>> 어떻게 해야할지 모르겠다는 듯, 당신의 머리를 쓰다듬는다.
 <<else>>
-	You cry silently into Robin's shoulder. <<He>> seems uncomfortable with this, but doesn't stop you.
+	당신은 로빈의 어깨에 기대어 조용히 운다. <<He_ nun>> 조금 불편해 보이지만, 당신을 말리진 않는다.
 <</if>>
 <br><br>
 
@@ -4908,13 +4908,13 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 <<set $outside to 0>><<set $location to "home">><<effects>>
 
 <<if $trauma gte ($traumamax / 7) * 3>>
-	You complain about some of your recent worries. Robin listens to what you have to say but you hold back on some of the more significant happenings.
-	Despite that, just talking about the little things is enough to make life feel a little easier to deal with.
+	당신은 최근의 걱정거리에 대해 불평한다. 로빈은 당신의 이야기를 경청하지만, 당신은 더 핵심적인 일들에 대해서는 말하지 않고 숨긴다. 
+	그럼에도 불구하고, 작은 일들을 이야기한 것만으로도 마음이 조금은 가벼워지는 듯 하다.
 	<br><br>
 	<<robinhug>>
 
 <<else>>
-	You complain about some of your recent worries. Robin listens to what you have to say and the experience makes it all a little easier to deal with.
+	당신은 최근의 걱정거리에 대해 불평한다. 로빈은 당신의 이야기를 경청하고, 당신이 경험한 것들을 좀 더 쉽게 처리할 수 있도록 돕는다.
 	<br><br>
 	<<robinhug>>
 
@@ -4923,15 +4923,15 @@ As you watch Robin from behind, you notice <<person2>><<his>> shoulders shaking 
 :: Robin Hug Cuddle
 <<set $outside to 0>><<set $location to "home">><<effects>>
 
-You snuggle a bit with Robin and <<he>> seems to be happy enough to wrap <<his>> arms around you and cuddle back.
+당신이 로빈을 살짝 껴안자 로빈의 팔이 당신을 감싸고 다시 끌어안아주며 행복해하는 것이 느껴진다.
 <br><br>
 <<robinoptions>>
 
 :: Robin Complain
 <<set $outside to 0>><<set $location to "home">><<effects>>
 
-You are feeling irritated about your day, so you begin unloading your emotional stress onto Robin, venting and complaining about the little things that bug you.
-You leave the bigger things off the table though, you don't really want Robin knowing about that stuff. Robin listens politely.
+당신은 오늘 있었던 일들에 짜증이 나기 시작하고, 로빈에게 감정적인 스트레스를 쏟아내며, 당신을 귀찮게 하던 사소한 일에 대해 불평하고 불만을 토로하기 시작한다.
+하지만 당신은 로빈이 더 큰 문제를 알기는 원하지 않기 떄문에, 그 부분은 언급하지 않는다. 로빈은 정중하게 당신의 이야기를 들어준다.
 <br><br>
 <<robinoptions>>
 
@@ -4939,26 +4939,26 @@ You leave the bigger things off the table though, you don't really want Robin kn
 <<set $outside to 0>><<set $location to "home">><<effects>>
 
 <<if $daily.robin.policeBody is 1>>
-	You are feeling irritated at Robin, so you tell <<him>> what you think about having to do what you did with those police.
-	You don't give any details, but you make it clear you are sore about it and don't want to have to do that again. <<He>> hangs <<his>> head and nods.
+	당신은 로빈에게 짜증이 나서, 그 경찰이 한 행동에 대해 당신이 어떻게 생각하는지를 토로한다.
+	당신은 자세한 것들은 말하지 않지만, 그 일에 대해 화가 났고 다시는 그런 일을 하고 싶지 않다는 점을 분명히 밝힌다. <<He_ nun>> 고개를 숙이고 끄덕인다.
 	<br><br>
 	<<robinoptions>>
 
 <<elseif $daily.robin.policePay is 1>>
-	You are feeling irritated at Robin, so you tell <<him>> what you think about having to pay for <<him>> not having a permit.
-	<<He>> hangs <<his>> head and nods.
+	당신은 로빈에게 짜증이 나서 허가증이 없는 <<He_ rul>> 위해 돈을 내야 하는 것이 어떤 기분인지에 대해 토로한다.
+	<<He_ nun>> 고개를 숙인채 끄덕인다.
 	<br><br>
 	<<robinoptions>>
 
 <<elseif $rng gte 51>>
-	You are feeling irritated at Robin, so you tell <<him>> what you think about <<his>> taste in video games.
-	It's kinda petty, but it makes you feel better. <<Hes>> annoyed, but doesn't argue back.
+	당신은 로빈에게 짜증이 나서 <<His_ yi>> 비디오 게임 취향에 대해 어떻게 생각하는지 토로한다.
+	그건 다소 사소한 것이었지만, 당신의 기분은 나아진다. <<He_ nun>> 조금 화나 나 보이지만, 반박하지는 않는다.
 	<br><br>
 	<<robinoptions>>
 
 <<else>>
-	You are feeling irritated at Robin, so you tell <<him>> what you think about <<him>> being so naive about things.
-	You kinda make fun of <<him>> a little. <<Hes>> annoyed, but doesn't argue back.
+	당신은 로빈에게 짜증이 나서 <<He_ ga>> 너무 순진한 것에 대해 토로한다.
+	당신은 <<He_ rul>> 약간 조롱하기도 한다. <<He_ nun>> 조금 화나 보이지만, 반박하지는 않는다.
 	<br><br>
 	<<robinoptions>>
 
@@ -4968,17 +4968,17 @@ You leave the bigger things off the table though, you don't really want Robin kn
 <<set $outside to 0>><<set $location to "home">><<effects>>
 
 <<if $daily.robin.policeBody is 1>>
-	You said you were fine with it earlier, but ever since you paid off those cops with your body you have been winding tighter and tighter.
-	You begin unloading on Robin and chewing <<him>> out about not having a permit,
-	and when you are done with that you begin finding every little fault of <<his>> you can possibly dig at <<him>> about.
-	<<He>> doesn't complain, but is in tears by the end of it.
+	당신은 처음엔 괜찮다고 말했지만, 경찰들에게 몸으로 대가를 치른 이후로 점점 더 감정이 억눌러지고 있었다.
+	당신은 로빈에게 화를 내며 허가증이 없는 것에 대해 몰아세우고,
+	그것이 끝나자마자 <<His_ yi>> 사소한 잘못들을 하나하나 전부 끄집어내며 계속해서 <<He_ rul>> 비난한다.
+	<<He_ nun>> 어떤 불평도 하지 않지만, 결국 당신의 이야기가 끝날 무렵에 눈물을 흘리고 만다.
 	<br><br>
 	<<robinoptions>>
 
 <<else>>
-	You've been through a lot.
-	You know none of this is Robin's fault exactly, but you go after <<him>> anyway and chew <<him>> out about every little thing you can think of.
-	<<He>> tears up, but doesn't complain.
+	당신은 많은 일을 겪어왔다.
+	이 모든 일이 로빈의 잘못이 아니라는 것은 알지만, 그럼에도 불구하고 당신은 로빈에게 화를 내며 생각나는 사소한 것들까지 전부 트집 잡아 <<He_ rul>> 비난한다. 
+	<<He_ nun>> 눈물을 흘리지만, 불평은 하지않는다.
 	<br><br>
 	<<robinoptions>>
 
@@ -4989,7 +4989,7 @@ You leave the bigger things off the table though, you don't really want Robin kn
 
 <<if $robinpaid isnot 1>>
 	<<if $robinmoney lte 200>>
-		"W-well," <<he>> looks away. "Sorry, but I need it." <<He>> looks ashamed.
+		"그-그게," <<He_ ga>> 고개를 돌린다. "미안, 그렇지만 나도 필요해." <<He_ ga>> 수치스러워한다.
 		<br><br>
 
 		<<if $submissive lte 500>>
@@ -4998,7 +4998,7 @@ You leave the bigger things off the table though, you don't really want Robin kn
 		<</if>>
 		<<robinoptions>>
 	<<else>>
-		"Sure," <<he>> says, reaching into <<his>> drawer, pulling out the money then counting it out for you. You make <<moneyGain 100>>.
+		"그럼," <<He_ ga>> <<His_ yi>> 서랍에 손을 뻗어 돈을 꺼내 세어주며 말한다. 당신은 <<moneyGain 100>>를 얻는다.
 		<<set $robinmoney -= 100>>
 		<br><br>
 
@@ -5006,13 +5006,13 @@ You leave the bigger things off the table though, you don't really want Robin kn
 	<</if>>
 <<else>>
 	<<if $robinmoney lte 0>>
-		"I... I'm sorry, is Bailey really asking for a lot? I'm sorry, I've given you everything I earned already."
+		"미... 미안해, 베일리가 그렇게 많은 것을 요구하니? 미안해, 그렇지만 갖고 있는 건 이미 다 너에게 줬어."
 		<br><br>
 
 		<<robinoptions>>
 	<<else>>
-		"Y-yeah, okay," <<he>> says. <<He>> gets out the money and hands it to you. <<He>> looks a little torn.
-		"I-I guess Bailey's demands are a little harsh, huh? I-I'm sorry you have to pay for me too." You make £<<print $robinmoney>>.
+		"아-알겠어, 응," <<He_ ga>> 말한다. <<He_ nun>> 돈을 꺼내서 당신에게 꺼내준다. <<His_ yi>> 얼굴이 조금 상처받은듯 보인다.
+		"베=베일리의 요구가 좀 지나친 것 같아, 그치? 미-미안해. 내 몫까지 내게 해서." 당신은 £<<print $robinmoney>>를 얻는다.
 		<br><br>
 		<<set $money += ($robinmoney * 100)>><<set $robinmoney to 0>>
 		<<robinoptions>>
@@ -5022,14 +5022,14 @@ You leave the bigger things off the table though, you don't really want Robin kn
 :: Robin Money Demand
 <<set $outside to 0>><<set $location to "home">><<effects>>
 
-You demand Robin give you the money,
+당신은 로빈에게 돈을 달라고 요구하며,
 <<if $speech_attitude is "bratty">>
-	playing all sorts of emotionally manipulative games with <<him>>.
+	온갖 감정적인 조종을 한다. 
 <<else>>
-	and you even threaten <<him>>.
+	<<He_ rul>> 협박하기까지 한다.
 <</if>>
 
-Finally, <<he>> relents and gives you the money. You make £<<print $robinmoney>>. <<He>> looks worried.
+결국, <<He_ nun>> 마지못해 돈을 건넨다. 당신은 £<<print $robinmoney>>를 얻는다. <<He_ nun>> 걱정스러워 보인다.
 <<set $money += ($robinmoney * 100)>><<set $robinmoney to 0>>
 <br><br>
 
